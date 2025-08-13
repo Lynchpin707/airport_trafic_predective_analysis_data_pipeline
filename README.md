@@ -68,11 +68,11 @@ python run_pipeline.py
 
 ## Results & Visualizations
 
-Here is the final trafic forcast per airport:
+Here is the final traffic forecast per airport:
 
 ![Final Forecast](docs/outputs/final_forecast.png)
 
-- For more details check the forcast summary csv file in docs/outputs
+! For more details check the [Forecast smmary](/docs/outputs/forecast_summary.csv)
 
 ## Learnings
 
