@@ -39,7 +39,11 @@ The project focuses on building a scalable, reproducible data pipeline forecasti
 Data required manual extraction from PDF/Excel formats and included inconsistencies that were handled in preprocessing.
 
 ## Pipeline Architecture
-![Pipeline architecture](docs/pipeline_architecture.png)
+
+<p align="center">
+  <img src="docs/pipeline_architecture.png" alt="Old ONDA logo" width="800"/>
+</p>
+
 
 It begins with raw Excel files, which are ingested into the processing environment. The data is then cleaned and formatted to ensure consistency, followed by feature engineering to add context such as semester periods, holiday flags, and special events. Using these enriched datasets, the Prophet model generates accurate time-series forecasts. Finally, the results are delivered as reports and charts, making the insights easy to interpret and use.
 
