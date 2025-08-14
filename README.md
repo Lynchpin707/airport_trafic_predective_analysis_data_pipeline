@@ -27,7 +27,7 @@ The project focuses on building a scalable, reproducible data pipeline forecasti
 ## Dataset Description
 
 - **Main Source:** ONDA historical airport traffic (monthly, per airport)
-- **Time Range:** 2013 – 2023
+- **Time Range:** 2010 – 2023
 - **Supplementary Sources:** Moroccan public holidays, event calendars
 - **Features:** Total passengers, monthly variation, seasonality markers
 
@@ -44,10 +44,7 @@ flowchart TD
     D --> E[Forecasting 'Prophet']
     E --> F[Output Reports & Charts]
 ``` 
-
-
-
-
+![Pipeline architecture](docs/outputs/pipeline_architecture.png)
 ## How to Run the Project
 
 1. Clone the repository:
@@ -71,12 +68,11 @@ python run_pipeline.py
 
 ## Results & Visualizations
 
-Here are some sample results for Casablanca airport:
+Here is the final traffic forecast per airport:
 
-![Casablanca Forecast](outputs/casablanca_forecast.png)
+![Final Forecast](docs/outputs/final_forecast.png)
 
-- Overall MAE: 18,000 passengers
-- Strong seasonal patterns detected
+! For more details check the [Forecast smmary](/docs/outputs/forecast_summary.csv) and [Model metrics](docs/outputs/model_metrics.csv).
 
 ## Learnings
 
