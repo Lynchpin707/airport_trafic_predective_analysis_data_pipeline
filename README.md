@@ -44,7 +44,7 @@ flowchart TD
     D --> E[Forecasting 'Prophet']
     E --> F[Output Reports & Charts]
 ``` 
-
+![Pipeline architecture](docs/outputs/pipeline_architecture.png)
 ## How to Run the Project
 
 1. Clone the repository:
@@ -72,7 +72,7 @@ Here is the final traffic forecast per airport:
 
 ![Final Forecast](docs/outputs/final_forecast.png)
 
-! For more details check the [Forecast smmary](/docs/outputs/forecast_summary.csv)
+! For more details check the [Forecast smmary](/docs/outputs/forecast_summary.csv) and [Model metrics](docs/outputs/model_metrics.csv).
 
 ## Learnings
 
