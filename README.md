@@ -1,6 +1,11 @@
 # predictive_analysis_of_moroccan_airport_traffic
 
-i developed this project during my internship at ONDA (Office National des Aéroports) in Morocco. The goal was to design and implement an end-to-end data pipeline to forecast airport passenger traffic using historical data and external signals (e.g. public holidays, sports events ...).
+<p align="center">
+  <img src="docs/logos/logo_onda.jpg" alt="Old ONDA logo" width="200"/>
+  <img src="docs/logos/new_logo_onda.jpg" alt="New ONDA logo" width="200"/>
+</p>
+
+I developed this project during my internship at Airports of Morocco - formally known as ONDA (Office National des Aéroports) - in Morocco. The goal was to design and implement an end-to-end data pipeline to forecast airport passenger traffic using historical data and external signals (e.g. public holidays, sports events ...).
 
 🔧 Tech stack: [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#), [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#), [![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)](#), ![Static Badge](https://img.shields.io/badge/Jupyter-orange?logo=jupyter&logoColor=white),[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#), [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#), [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#)
 
